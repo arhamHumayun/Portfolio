@@ -1,11 +1,15 @@
 import tthScreenshot from './../assets/images/tthScreenshot.png'
 import srvisScreenshot from './../assets/images/srvisScreenshot.png'
+import schulichVelocityScreenshot from './../assets/images/schulichVelocityScreenshot.png'
+import stm32picture from './../assets/images/stm32picture.jpg'
 
 const data = [
   {
     title: 'STM Display',
-    description: `Display/Dashboard for formula racing car. Written in C++ and running on an STM32 chipset powered by ARM.`,
-    github: 'https://github.com/SchulichRacingElectrical/STMDisplay'
+    description: `Display/Dashboard for formula racing car. Written in C++ and running on an STM32 chipset powered by ARM.
+    Picture shows the STM32F29 discovery board in which the display was programmed.`,
+    github: 'https://github.com/SchulichRacingElectrical/STMDisplay',
+    image: stm32picture
   },
   {
     title: 'Tabletop Helper',
@@ -18,6 +22,7 @@ const data = [
   {
     title: 'Schulich Velocity',
     github: 'https://github.com/SchulichRacingElectrical/SchulichVelocity',
+    image: schulichVelocityScreenshot,
     description: `Graphing web app made with React with the purpose to view, store, and analyse data from a formula race car.
     Developed by the Electrical/Software team in Schulich Racing. My role in the development of this app was to implement GraphJS as our
     visualization tool, and to write the client side code for data processing.`

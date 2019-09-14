@@ -33,7 +33,7 @@ class portfolioIndex extends React.Component {
             <Row>
               {portfolioData.map(p => (
                 <Col xs={12} sm={12} md={6} lg={6} key={p.title}>
-                  <Link to={'/portfolio/view'} state={p} key={p.title}>
+                  <Link to={'/portfolio/view/'} state={p} key={p.title}>
                     <div
                       style={{
                         display: 'flex',
