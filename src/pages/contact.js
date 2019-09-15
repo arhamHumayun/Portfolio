@@ -29,10 +29,7 @@ class Contact extends React.Component {
           if (contactData[key]) {
             return (
               <p>
-                <b>{key}: </b>
-                <a href={contactData[key]} target="_new">
-                  {contactData[key]}
-                </a>
+                <b>{key}: </b> {contactData[key]}
               </p>
             )
           }
