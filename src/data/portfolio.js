@@ -2,11 +2,13 @@ import tthScreenshot from './../assets/images/tthScreenshot.png'
 import srvisScreenshot from './../assets/images/srvisScreenshot.png'
 import schulichVelocityScreenshot from './../assets/images/schulichVelocityScreenshot.png'
 import stm32picture from './../assets/images/stm32picture.jpg'
+import minesweeperScreenhot from './../assets/images/minesweeperScreenshot.png'
+import PetNextDoorScreenshot from './../assets/images/PetNextDoorScreenshot.png'
 
 const data = [
   {
     title: 'STM Display',
-    description: `Display/Dashboard for formula racing car. Written in C++ and running on an STM32 chipset powered by ARM.
+    description: `Display/Dashboard for formula racing car. Written in C and running on an STM32 chipset powered by ARM.
     Picture shows the STM32F29 discovery board in which the display was programmed.`,
     github: 'https://github.com/SchulichRacingElectrical/STMDisplay',
     image: stm32picture
@@ -18,6 +20,19 @@ const data = [
     description: `A solo side project made to help speed up TTRPG combat by providing a robust online dice roller and multiple stat generators.
     Made with React and utilizes many components from react-bootstrap.`,
     image: tthScreenshot
+  },
+  {
+    title: 'Pet Next Door',
+    github: 'https://github.com/arhamHumayun/pet-next-door',
+    description: `A web based system created for pet shelters to keep track of their pets and users. 
+    Created using HTML, CSS, PHP, and an Apache MySQLi server.`,
+    image: PetNextDoorScreenshot
+  },
+  {
+    title: 'Minesweeper',
+    github: 'https://github.com/arhamHumayun/minesweeper',
+    description: `Classic Minesweeper remade in Python using pygame.`,
+    image: minesweeperScreenhot
   },
   {
     title: 'Schulich Velocity',

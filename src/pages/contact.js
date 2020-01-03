@@ -6,7 +6,7 @@ import get from 'lodash/get'
 import Layout from '../components/Layout'
 import contactData from './../data/contact'
 
-class Contact extends React.Component {
+export default class Contact extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const siteDescription = get(
@@ -38,8 +38,6 @@ class Contact extends React.Component {
     )
   }
 }
-
-export default Contact
 
 export const query = graphql`
   query {

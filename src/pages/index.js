@@ -25,18 +25,20 @@ class SiteIndex extends React.Component {
           If you would like to see what I have made so far, please take a look at one of my <Link to={'/portfolio'}>projects</Link>.
         </p>
         <p>
-          My current language skillset is:
+          I have made projects in:
           <ul>
-            <li>Javascript</li>
-            <li>Java</li>
+            <li>Javascript/NodeJS</li>
             <li>C/C++</li>
             <li>Python</li>
+            <li>HTML, CSS, PHP, MySQLi</li>
           </ul>
-          Here are some frameworks and other technologies I have worked in.
+          Here are some frameworks and other technologies I have worked in:
           <ul>
             <li>React, React-bootstrap, Chartjs</li>
             <li>Gatsby</li>
             <li>Bokeh, Pandas, NumPy</li>
+            <li>Pygame</li>
+            <li>Apache</li>
             <li>Github, gh-pages</li>
             <li>npm, git bash, pip</li>
           </ul>

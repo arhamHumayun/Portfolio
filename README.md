@@ -1,1 +1,2 @@
-Portfolio, built with Gatsby
+Portfolio.
+Built with Gatsby.
